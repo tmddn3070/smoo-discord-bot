@@ -15,6 +15,6 @@ for filename in os.listdir(path):
         bot.load_extension(f'folder.cogs.{filename[:-3]}')
     if filename == '__pycache__':pass
 
-print(f'{len(cogs)}개 스크립트 로드됨')
+print(f'{len(cogs)}개 코드 로드됨')
 
 bot.run(token)
