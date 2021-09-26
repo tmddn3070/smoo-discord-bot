@@ -1,6 +1,6 @@
 from discord.ext import commands
 from discord_slash import SlashCommand
-from folder.config import *
+from smoobot.config import *
 import os
 
 bot = commands.Bot(command_prefix='?')
